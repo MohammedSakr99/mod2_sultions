@@ -1,0 +1,140 @@
+    /* desktop */
+    
+    @media (min-width: 992px) {
+        section {
+            background-color: gray;
+            display: inline-block;
+            border: 3px solid black;
+            width: 31%;
+        }
+        
+        p {
+            padding: 10px 10px 10px 10px;
+           
+            font-size: 18px;
+        }
+        
+        .s1 {
+            margin-right: 2%;
+        }
+        
+        .s2 {
+            margin-right: 2%;
+        }
+        
+        .s3 {}
+        
+        h2 {
+        
+            width: 33%;
+
+            margin-left: 68%;
+     
+            margin-top: -1%;
+        }
+
+    }
+    /* tablet */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .s1,
+        .s2 {
+            margin-left: 4%;
+            width: 43%;
+        }
+        .s3 {
+            width: 93%;
+            display: block;
+            margin-left: 4%;
+            margin-top: 3%;
+        }
+        h2 {
+        
+            width: 33%;
+
+            margin-left: 68%;
+     
+            margin-top: -1% ;
+        }
+    }
+    /* mobile */
+    
+    @media (max-width: 767px)  {
+        .s1,
+        .s2,
+        .s3 {
+            margin-top: 4%;
+            width: 95%;
+            display: block;
+        }
+        .h1,
+        .h2,
+        .h3 {
+            margin-top: 0%;
+            margin-left: 77.3%;
+            font-size: 30px;
+        }
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 2%;
+    }
+    
+    banner {
+        padding: 30px 30px 30px 30px;
+    }
+    
+    section {
+        background-color: gray;
+        display: inline-block;
+        border: 3px solid black;
+        width: 31%;
+    }
+    
+    p {
+        padding: 10px 10px 10px 10px;
+        text-align: justify;
+        background-color: gray;
+        color: black;
+        font-size: 18px;
+    }
+    
+    /* .s1 {
+        margin-right: 2%;
+    }
+    
+    .s2 {
+        margin-right: 2%;
+    }
+    
+    .s3 {} */
+    
+    h2 {
+        direction: rtl;
+        /* width: 23%; */
+        border: 2px solid black;
+        -moz-box-direction: reverse;
+        /* margin-left: 78%; */
+        text-align: center;
+        /* margin-top: -1%; */
+    }
+    
+    .h1 {
+        background-color: pink;
+    }
+    
+    .h2 {
+        background-color: red;
+    }
+    
+    .h3 {
+        background-color: yellow;
+    }
+    
+    header {
+        text-align: center;
+    }
